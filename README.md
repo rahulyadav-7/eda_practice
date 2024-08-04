@@ -27,19 +27,24 @@
 - **Check for Missing Values:** Use functions to identify missing values in each column.
 - **Visualize Missing Values (Optional):** Create a heatmap or other visualizations to show missing data patterns.
 - **Decide on Strategy:** Choose how to handle missing values:
-    - **Drop Missing Values:** Remove rows or columns with missing values.
-    - **Fill Missing Values:** Impute missing values using techniques like:
-        - Mean Imputation
-        - Median Imputation
-        - Mode Imputation
-        - Forward Fill
-        - Backward Fill
+  - **Drop Missing Values:** Remove rows or columns with missing values.
+  - **Fill Missing Values:** Impute missing values using techniques like:
+    - Mean Imputation
+    - Median Imputation
+    - Mode Imputation
+    - Forward Fill
+    - Backward Fill
 - **Implement Chosen Strategy:** Apply the chosen method to handle missing values.
 
 ## 6. Univariate Analysis
 - **Analyze Numerical Variables:**
   - **Histograms:** Create histograms to visualize the distribution of numerical variables.
   - **Box Plots:** Generate box plots to identify outliers and visualize the spread of numerical data.
+    - **Identify Outliers:** Use the IQR method or Z-scores to identify outliers.
+    - **Handle Outliers:**
+      - Remove outliers if they are errors.
+      - Transform data to reduce the impact of outliers.
+      - Cap/floor outliers to a certain value.
   - **Summary Statistics:** Review descriptive statistics for numerical variables.
   - **Calculate Skewness and Kurtosis:**
     - **Skewness:** Measure the asymmetry of the data distribution.
